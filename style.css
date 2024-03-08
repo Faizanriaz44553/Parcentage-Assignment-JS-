@@ -1,0 +1,53 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    padding: auto;
+    background-color: #081c15;
+    box-sizing: border-box;
+}
+
+/* #container{
+} */
+
+
+
+.form{
+    padding: 15px 60px;
+    border-radius: 8px;
+    border: 1px solid #d8f3dc;
+    transition-duration: 0.3s; /* Safari */
+  transition-duration: 0.3s;
+}
+
+.form:hover {
+    box-shadow: 0 0 10px 0 #52b788, /* Shadow color with blur effect */
+                0 0 10px 0 #52b788, /* Shadow color with blur effect */
+                0 0 10px 0 #52b788, /* Shadow color with blur effect */
+                0 0 10px 0 #52b788; /* Shadow color with blur effect */
+    border: none; /* Border color */
+}
+#button{
+    padding: 13px 30px;
+    background-color: #d8f3dc;
+    color: #081c15;
+    border-radius: 20px;
+    border: 2px solid #081c15;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: large;
+    transition-duration: 0.2s; /* Safari */
+  transition-duration: 0.2s;
+  margin-bottom: 20px;
+}
+
+#button:hover {
+    box-shadow: 0 0 10px 0 #52b788, /* Shadow color with blur effect */
+                0 0 10px 0 #52b788, /* Shadow color with blur effect */
+                0 0 10px 0 #52b788, /* Shadow color with blur effect */
+                0 0 10px 0 #52b788; /* Shadow color with blur effect */
+    border: none /* Border color */
+}
+
+
+
+

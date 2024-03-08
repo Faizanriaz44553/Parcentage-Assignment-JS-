@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+<body>
+     <div id="container">
+        <div class="display-f justify-c mtop-4" ><h1 class="t-c-lgreen3">Percentage Calculator</h1></div>
+        <div class="display-f justify-c"><p class="t-c-lgreen2 t-a-center mtop-2">Effortlessly compute percentages with our user-friendly tool. Simply input values and get accurate results instantly. <br> Perfect for students, professionals, and anyone in need of quick calculations.</p></div>
+    </div>
+        
+    <div>
+        <div class="display-f justify-c mtop-4"><input class="form" type="number" placeholder="Enter your chemistry marks" id="chem-marks"><br><br></div>
+        <div class="display-f justify-c mtop-4"><input class="form" type="number" placeholder="Enter your physics marks" id="phy-marks"><br><br></div>
+        <div class="display-f justify-c mtop-4"><input class="form" type="number" placeholder="Enter your maths marks" id="math-marks"><br><br></div>
+        <div class="display-f justify-c mtop-4"><input class="form" type="number" placeholder="Enter your computer marks" id="com-marks"><br><br></div>
+        <div class="display-f justify-c mtop-4"><button id="button" onclick="calculatePercentage()">Get Result</button></div>
+    </div>
+
+    
+
+    <div style="margin-top: 50px;">
+        <div class="display-f justify-c mtop-4"><h1 class="t-c-lgreen">TotalMarks: <span class="t-c-lgreen3" id="total-marks">0</span></h1></div>
+        <div class="display-f justify-c mtop-4"><h1 class="t-c-lgreen">Percantage: <span class="t-c-lgreen3" id="percentage">0</span>%</h1></div>
+        <div class="display-f justify-c mtop-4"><h1 class="t-c-lgreen">Grade: <span class="t-c-lgreen3" id="grade">0</span></h1></div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
